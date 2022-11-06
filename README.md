@@ -33,3 +33,8 @@ git branch develop // Création de la branche
 git push origin develop // Envoie de la branch en ligne
 
 ```
+
+## Création des issues
+
+Avant de développer, on créé une tâche sur github dans l'onglet issues on l'insère dans la milestone correspondantes (ensemble de tâches qui sont sur le même thème)
+Ensuite, ranger la tâche en fonction de si elle est à faire (To do), si elle est en cours (In progress) et si elle est terminé (Done)
