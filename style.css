@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+body{
+    margin: 30px;
+    font-family: 'Krona One';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header > section > img{
+    width: 200px;
+    height: auto;
+}
+
+header > section:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid grey 1px;
+    padding-bottom: 30px;
+}
+
+header > section > section {
+    display: flex;
+    align-items: center;
+}
+
+header > section > section > p{
+    color: #A6C297;
+}
+
+header > section > section > div{
+    border: solid gray 1px;
+    border-radius: 40px;
+    width: 200px;
+    height: 40px;
+    margin-right: 50px;
+    position: relative;
+}
+
+header > section > section > div > svg {
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+nav section{
+    display: flex;
+    gap: 30px;
+}
+
+nav section:nth-child(2) > a {
+    border: solid 1px grey;
+    border-radius: 40px;
+    padding: 5px 30px;
+}
