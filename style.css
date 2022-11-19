@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+    margin: 0;
+}
+footer {
+    padding: 50px 0;
+    background-color: #2E343D;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    margin: 0 40px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Krona One', sans-serif;
+    letter-spacing: 3px;
+}
+
+ul {
+    text-transform: uppercase;
+    list-style-type: none;
+    padding: 0;
+}
+
+#linkFooter {
+    display: flex;
+    gap: 50px;
+    margin-left: 250px;
+    margin-block-start: 0.83em
+}
+
+#linkFooter a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+#adresseFooter {
+    display: flex;
+    align-items: flex-end;
+}
+
+#adresseFooter img {
+    padding-right: 120px;
+    margin-block-end: 1em;
+    height: 60px;
+    width: 60px;
+}
+
+hr {
+    width: 95%;
+    border : 1px solid #4B4B4B;
+}
+
+#language {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#language img {
+    width: 25px;
+    height: 25px;
+}
+
+#imageSVG img {
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+#beforeHr {
+    padding-top: 40px;
+}
