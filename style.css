@@ -4,6 +4,7 @@
 body {
     margin: 0;
 }
+
 footer {
     padding: 50px 0;
     background-color: #2E343D;
@@ -19,12 +20,12 @@ footer section {
     color: white;
 }
 
-h2 {
+footer h2 {
     font-family: 'Krona One', sans-serif;
     letter-spacing: 3px;
 }
 
-ul {
+footer ul {
     text-transform: uppercase;
     list-style-type: none;
     padding: 0;
