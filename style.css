@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-body{
+header{
     margin: 30px;
     font-family: 'Krona One';
 }
 
-a{
+header a{
     text-decoration: none;
     color: black;
 }
@@ -100,7 +100,7 @@ nav > section > section{
     font-weight: 100;
     font-size: 15px;
     margin-bottom: 40px;
-    margin-left: 800px;
+    margin-left: 60%;
 }
 
 .header-bottom a {
@@ -108,5 +108,5 @@ nav > section > section{
     background-color: black;
     color: white;
     border-radius: 40px;
-    margin-left: 800px;
+    margin-left: 60%;
 }
