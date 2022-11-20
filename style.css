@@ -112,7 +112,14 @@ nav > section > section{
     margin-left: 60%;
 }
 
+
 p{
+    color: black;
+    font-family: 'Montserrat';
+}
+
+
+p.blocSpecification{
     padding-top: 70px;
     color: black;
     font-family: 'Montserrat';
