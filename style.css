@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+
+
+p{
+    padding-top: 70px;
+    color: black;
+    font-family: 'Montserrat';
+}
+
+/* Moha */
+
+h1.bloc{
+    color: #1B314B;
+    font-family: 'Krona One';
+    padding-left: 35px;
+}
+h2.bloc{
+    color: #1B314B;
+    font-family: 'Krona One';
+    
+}
+h3.bloc{
+    color: #A6C297 ;
+    font-family: 'Krona One';
+    padding-left: 35px;
+}
+
+div.first{
+    display: flex;
+    justify-content: space-around;
+}
+
+article{
+    border-radius: 30px;
+}
+
+article.firstBloc{
+    max-width: 880px;
+    border: solid grey 1px;
+    display: flex;
+    display: inline-flex;
+    padding-left: 30px;
+}
+
+div.firstBlocText{
+    padding-right: 30px;
+}
+
+div.firstBlocImage{
+    width: 100%;
+}
+
+img.firstBlocImg{
+    max-width: 400px;
+    border-radius: 0px 6px 6px 0px;
+}
+
+article.secondBloc{
+    max-width: 400px;
+    border: solid grey 1px;
+    padding-left: 30px;
+}
+
+div.second{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2.secondBloc{
+    color: white;
+    font-family: 'Krona One';
+}
+
+p.secondBloc{
+    padding-top: 70px;
+    color: white;
+    font-family: 'Krona One';
+}
+article.firstBloc2{
+    max-width: 400px;
+    border: solid white 1px;
+    padding-left: 30px;
+    background-color: #A6C297;
+}
+
