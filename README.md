@@ -42,6 +42,5 @@ Ensuite, ranger la tâche en fonction de si elle est à faire (To do), si elle e
 ## Push votre issues fini sur le repo github
 
 Commencez par commit sur votre feature, en pensant bien à spécifier le # de votre issue, ensuite déplacer vous sur la branche main 
-- checkout branch main, puis faites un merge entre la branche master et votre feature, enfin faite un pull pour récuperer ce qu'il
-y a actuellement sur le repo github puis gérer les conflits car votre version et différentes de celle qui y a en ligne. Une fois que vous
-avez fait tout vous pouvez Push.
+- checkout branch main, puis faites un pull pour récuperer ce qu'il y a actuellement sur le repo github
+ensuite faites un merge entre la branche master et votre feature, gérer les conflits et enfin vous pouvez Push.
