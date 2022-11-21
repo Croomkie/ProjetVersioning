@@ -172,7 +172,7 @@ div.firstBlocImage{
 
 img.firstBlocImg{
     max-width: 400px;
-    border-radius: 0px 6px 6px 0px;
+    border-radius: 0px 30px 30px 0px;
 }
 
 article.secondBloc{
@@ -202,4 +202,54 @@ article.firstBloc2{
     border: solid white 1px;
     padding-left: 30px;
     background-color: #A6C297;
+}
+
+.blueblock{
+    background-color: #AEC3DE;
+    text-align: left;
+    height: 200px;
+    border-radius: 30px;
+    column-count: 2;
+    padding: 55px 60px 20px 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.titre{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Krona One', sans-serif;
+    line-height: 1.7;
+    margin-left: 300px;
+    margin-right: 20px;
+
+}
+span{
+    background-color: white;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: black;
+    padding: 8px 15px;
+}
+.citation{
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Krona One', sans-serif;
+    margin-right: 20px;
+    margin-bottom: 90px;
+}
+.auteur{
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.source{
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 800;
 }
