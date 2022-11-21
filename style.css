@@ -28,3 +28,12 @@ span{
     color: black;
     padding: 8px 15px;
 }
+.citation{
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Krona One', sans-serif;
+    margin-right: 20px;
+    margin-bottom: 90px;
+}
