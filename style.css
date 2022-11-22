@@ -346,11 +346,44 @@ hr {
     padding-top: 40px;
 }
 
+#imgMobileCenter {
+    display: none;
+}
+#burgerMenuMobile {
+    display: none;
+}
+
 p.bold {
     font-weight: bold;
     font-size: 22px;
 }
 
 @media (max-width : 767px) {
-    
+    footer section {
+        display: flex;
+    }
+    #beforeHr {
+        flex-direction: row-reverse;
+    }
+    #language {
+        display: none;
+    }
+    #linkFooter {
+        display: none;
+    }
+    #adresseFooter img {
+        display: none;
+    }
+    #imgMobileCenter {
+        display: block;
+    }
+    #imgMobileCenter img {
+        width: 50px;
+        height: 50px;
+    }
+    #burgerMenuMobile {
+        display: block;
+        width: 50px;
+        height: 50px;
+    }
 }
