@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;700&display=swap');
 
 header{
     margin: 30px;
@@ -245,12 +245,12 @@ span{
 }
 .auteur{
     font-size: 11px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
 }
 .source{
     font-size: 11px;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Montserrat', sans-serif; 
     font-weight: 800;
     margin-bottom: 40px;
 }
@@ -344,4 +344,9 @@ hr {
 
 #beforeHr {
     padding-top: 40px;
+}
+
+p.bold {
+    font-weight: bold;
+    font-size: 22px;
 }
