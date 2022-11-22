@@ -44,3 +44,7 @@ Ensuite, ranger la tâche en fonction de si elle est à faire (To do), si elle e
 Commencez par commit sur votre feature, en pensant bien à spécifier le # de votre issue, ensuite déplacer vous sur la branche main 
 - checkout branch main, puis faites un pull pour récuperer ce qu'il y a actuellement sur le repo github
 ensuite faites un merge entre la branche master et votre feature, gérer les conflits et enfin vous pouvez Push.
+
+## Pour accéder au site en ligne
+
+Lien netlify : https://projetversioning.netlify.app/
