@@ -204,7 +204,7 @@ article.firstBloc2{
     background-color: #A6C297;
 }
 
-.blueblock{
+.blueBlock{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -212,7 +212,6 @@ article.firstBloc2{
     margin: 40px;
     background-color: #AEC3DE;
     text-align: left;
-    height: 200px;
     border-radius: 30px;
     padding: 55px 60px 20px 60px;
 }
@@ -384,5 +383,30 @@ p.bold {
         display: block;
         width: 50px;
         height: 50px;
+    }
+    .titre{
+        font-size: 15px;
+    }
+    span{
+        font-size: 13px;
+        padding: 5px 12px;
+    }
+    .citation{
+        font-size: 8px;
+        margin-bottom: 60px;
+    }
+}
+@media (max-width : 606px){
+    .titre{
+        font-size: 14px;
+    }
+    span{
+        font-size: 8px;
+        padding: 5px 12px;
+    }
+}
+@media(max-width : 452px){
+    .blueBlock{
+        flex-direction: column-reverse;
     }
 }
