@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;700&display=swap');
 
+/* Romain */
 header{
     margin: 30px;
     font-family: 'Krona One';
@@ -113,8 +114,7 @@ nav > section > section{
     border-radius: 40px;
     margin-left: 60%;
 }
-
-
+ /* Moha */
 p{
     color: black;
     font-family: 'Montserrat';
@@ -127,7 +127,7 @@ p.blocSpecification{
     font-family: 'Montserrat';
 }
 
-/* Moha */
+
 
 h1.bloc{
     color: #1B314B;
@@ -204,6 +204,7 @@ article.firstBloc2{
     background-color: #A6C297;
 }
 
+/* Ruddy */
 .blueblock{
     background-color: #AEC3DE;
     text-align: left;
@@ -256,6 +257,7 @@ span{
 }
 
 
+/* Lucas */
 body {
     margin: 0;
 }
@@ -359,7 +361,62 @@ p.bold {
 }
 
 @media (max-width : 767px) {
-    footer section {
+    
+    /* Romain */
+
+    /* Mohamed */
+
+    div.first{
+        display: block;
+    }
+
+    article.firstBloc{
+        max-width: 420px;
+        border: solid grey 1px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0px;
+    }
+    
+    #paddingTitle{
+        padding-left: 30px;
+    }
+    
+    img.firstBlocImg{
+        max-width: 420px;
+        border-radius: 30px 30px 0px 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    div.second{
+        display: block;
+        margin-top: 0;
+    }
+    article.firstBloc2{
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    article.secondBloc{
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    p.blocSpecification{
+        padding-right: 30px;
+    }
+    p.secondBloc{
+        padding-right: 30px;
+    }
+
+
+
+    /* Ruddy */
+    
+    /* Lucas */
+      footer section {
         display: flex;
     }
     #beforeHr {
@@ -386,4 +443,5 @@ p.bold {
         width: 50px;
         height: 50px;
     }
+    
 }
