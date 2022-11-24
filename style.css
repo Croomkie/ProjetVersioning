@@ -524,4 +524,12 @@ p.bold {
     nav > section:nth-child(1), nav>section:nth-child(2){
         margin-bottom: 20px;
     }
+
+    .header-bottom p{
+        margin-left: 30px;
+    }
+
+    .header-bottom a{
+        margin-left: 30px;
+    }
 }
