@@ -127,8 +127,6 @@ p.blocSpecification{
     font-family: 'Montserrat';
 }
 
-
-
 h1.bloc{
     color: #1B314B;
     font-family: 'Krona One';
@@ -171,8 +169,9 @@ div.firstBlocImage{
 }
 
 img.firstBlocImg{
-    max-width: 400px;
+    max-width: 350px;
     border-radius: 0px 30px 30px 0px;
+    aspect-ratio: 0;
 }
 
 article.secondBloc{
@@ -444,4 +443,17 @@ p.bold {
         height: 50px;
     }
     
+}
+
+@media (min-width : 1600px) {
+    article.firstBloc{
+        max-width: 1500px;
+    }
+    article.secondBloc{
+        max-width: 670px;
+
+    }
+    article.firstBloc2{
+        max-width: 670px;
+    }
 }
