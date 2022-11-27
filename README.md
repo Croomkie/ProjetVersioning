@@ -48,3 +48,9 @@ ensuite faites un merge entre la branche master et votre feature, gérer les con
 ## Pour accéder au site en ligne
 
 Lien netlify : https://projetversioning.netlify.app/
+
+## Nouveau fonctionnement :
+
+Avant, nous fonctionnions de manière à merge le travail réalisé sur nos features directement sur la main. 
+Dorénavant, nous allons, nous déplacer sur la branche develop puis merge nos features a partir de celle-ci, avant de merge nous faisons un pull, puis nous faisons un merge en gérant les conflits. 
+Puis on push directement à partir de celle-ci. Enfin, nous créons des pull request sur le repo pour merge le travail réalisé sur la develop avec la branche main.
