@@ -143,6 +143,10 @@ p{
     display: none;
 }
 
+.all-blocs{
+    margin: 0 30px;
+}
+
 p.blocSpecification{
     padding-top: 70px;
     color: black;
@@ -152,7 +156,7 @@ p.blocSpecification{
 h1.bloc{
     color: #1B314B;
     font-family: 'Krona One';
-    padding-left: 35px;
+    font-size: 45px;
 }
 h2.bloc{
     color: #1B314B;
@@ -162,7 +166,6 @@ h2.bloc{
 h3.bloc{
     color: #A6C297 ;
     font-family: 'Krona One';
-    padding-left: 35px;
     margin-top: 150px;
 }
 
@@ -232,7 +235,7 @@ article.firstBloc2{
     align-items: flex-start;
     justify-content: space-between;
     gap: 70px;
-    margin: 40px;
+    margin: 30px;
     background-color: #AEC3DE;
     text-align: left;
     height: 200px;
@@ -476,6 +479,11 @@ nav section:nth-child(2) > p{
 
 div.first{
     display: block;
+    margin: 0 20px;
+}
+
+h1.bloc{
+    font-size: 20px;
 }
 
 article.firstBloc{
@@ -493,14 +501,12 @@ article.firstBloc{
 }
 
 img.firstBlocImg{
-    max-width: 420px;
+    max-width: 100%;
     border-radius: 30px 30px 0px 0px;
-    margin-right: auto;
-    margin-left: auto;
 }
 div.second{
     display: block;
-    margin-top: 0;
+    margin : 0 20px
 }
 article.firstBloc2{
     margin-top: 20px;
@@ -546,6 +552,27 @@ p.secondBloc{
         display: block;
         width: 50px;
         height: 50px;
+    }
+
+    .blueblock{
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 40px 20px;
+        gap: 0;
+        margin: 40px 20px;
+    }
+
+    .blueblock h1{
+        margin-bottom: 20px;
+    }
+
+    .blueblock h1,.rectangle{
+        font-size: 17px;
+    }
+
+    .blueblock h2{
+        font-size: 15px;
+        margin-bottom: 20px;
     }
     
 }
